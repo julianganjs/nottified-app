@@ -1,0 +1,491 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.y3project.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:6:5-77
+12-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:6:22-74
+13
+14    <application
+14-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:8:5-240:19
+15        android:allowBackup="true"
+15-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\julia\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:10:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:11:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:13:9-41
+22        android:networkSecurityConfig="@xml/network_security_config"
+22-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:14:9-69
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:15:9-54
+24        android:screenOrientation="sensorPortrait"
+24-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:16:9-51
+25        android:supportsRtl="true"
+25-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Nottified" >
+27-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:18:9-47
+28        <service
+28-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:20:9-23:47
+29            android:name="com.y3project.myapplication.FacilityMainService"
+29-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:21:13-48
+30            android:enabled="true"
+30-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:22:13-35
+31            android:exported="true" />
+31-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:23:13-36
+32
+33        <activity
+33-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:25:9-32:20
+34            android:name="com.y3project.myapplication.FacilityMain"
+34-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:26:13-41
+35            android:exported="false"
+35-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:27:13-37
+36            android:screenOrientation="portrait" >
+36-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:28:13-49
+37            <meta-data
+37-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+38                android:name="android.app.lib_name"
+38-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+39                android:value="" />
+39-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+40        </activity>
+41        <activity
+41-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:33:9-40:20
+42            android:name="com.y3project.myapplication.ServiceStatus"
+42-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:34:13-42
+43            android:exported="false"
+43-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:35:13-37
+44            android:screenOrientation="portrait" >
+44-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:36:13-49
+45            <meta-data
+45-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+46                android:name="android.app.lib_name"
+46-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+47                android:value="" />
+47-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+48        </activity>
+49        <activity
+49-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:41:9-48:20
+50            android:name="com.y3project.myapplication.VehicleEntryLogs"
+50-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:42:13-45
+51            android:exported="false"
+51-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:43:13-37
+52            android:screenOrientation="portrait" >
+52-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:44:13-49
+53            <meta-data
+53-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+54                android:name="android.app.lib_name"
+54-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+55                android:value="" />
+55-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+56        </activity>
+57        <activity
+57-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:49:9-56:20
+58            android:name="com.y3project.myapplication.EntrySession"
+58-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:50:13-41
+59            android:exported="false"
+59-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:51:13-37
+60            android:screenOrientation="portrait" >
+60-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:52:13-49
+61            <meta-data
+61-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+62                android:name="android.app.lib_name"
+62-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+63                android:value="" />
+63-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+64        </activity>
+65        <activity
+65-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:57:9-65:20
+66            android:name="com.y3project.myapplication.VehicleRegistration"
+66-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:58:13-48
+67            android:exported="false"
+67-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:59:13-37
+68            android:screenOrientation="portrait"
+68-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:60:13-49
+69            android:windowSoftInputMode="adjustResize" >
+69-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:61:13-55
+70            <meta-data
+70-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+71                android:name="android.app.lib_name"
+71-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+72                android:value="" />
+72-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+73        </activity>
+74
+75        <service
+75-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:67:9-70:39
+76            android:name="com.y3project.myapplication.ParkingLocatorService"
+76-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:68:13-50
+77            android:enabled="true"
+77-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:69:13-35
+78            android:exported="true" />
+78-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:70:13-36
+79
+80        <activity
+80-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:72:9-79:20
+81            android:name="com.y3project.myapplication.MonitorFacilities"
+81-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:73:13-46
+82            android:exported="false"
+82-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:74:13-37
+83            android:screenOrientation="portrait" >
+83-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:75:13-49
+84            <meta-data
+84-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+85                android:name="android.app.lib_name"
+85-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+86                android:value="" />
+86-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+87        </activity>
+88        <activity
+88-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:80:9-87:20
+89            android:name="com.y3project.myapplication.CheckService"
+89-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:81:13-41
+90            android:exported="false"
+90-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:82:13-37
+91            android:screenOrientation="portrait" >
+91-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:83:13-49
+92            <meta-data
+92-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+93                android:name="android.app.lib_name"
+93-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+94                android:value="" />
+94-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+95        </activity>
+96
+97        <service
+97-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:89:9-92:39
+98            android:name="com.y3project.myapplication.CuisineStaffService"
+98-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:90:13-48
+99            android:enabled="true"
+99-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:91:13-35
+100            android:exported="true" />
+100-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:92:13-36
+101
+102        <activity
+102-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:94:9-101:20
+103            android:name="com.y3project.myapplication.StaffOrderList"
+103-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:95:13-43
+104            android:exported="false"
+104-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:96:13-37
+105            android:screenOrientation="portrait" >
+105-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:97:13-49
+106            <meta-data
+106-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+107                android:name="android.app.lib_name"
+107-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+108                android:value="" />
+108-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+109        </activity>
+110        <activity
+110-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:102:9-109:20
+111            android:name="com.y3project.myapplication.CuisineStaff"
+111-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:103:13-41
+112            android:exported="false"
+112-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:104:13-37
+113            android:screenOrientation="portrait" >
+113-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:105:13-49
+114            <meta-data
+114-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+115                android:name="android.app.lib_name"
+115-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+116                android:value="" />
+116-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+117        </activity>
+118
+119        <service
+119-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:111:9-114:39
+120            android:name="com.y3project.myapplication.StartOnBootService"
+120-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:112:13-47
+121            android:enabled="true"
+121-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:113:13-35
+122            android:exported="true" />
+122-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:114:13-36
+123
+124        <activity
+124-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:116:9-123:20
+125            android:name="com.y3project.myapplication.ParkingLocator"
+125-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:117:13-43
+126            android:exported="false"
+126-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:118:13-37
+127            android:screenOrientation="portrait" >
+127-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:119:13-49
+128            <meta-data
+128-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+129                android:name="android.app.lib_name"
+129-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+130                android:value="" />
+130-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+131        </activity>
+132        <activity
+132-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:124:9-131:20
+133            android:name="com.y3project.myapplication.OrderViewer"
+133-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:125:13-40
+134            android:exported="false"
+134-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:126:13-37
+135            android:screenOrientation="portrait" >
+135-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:127:13-49
+136            <meta-data
+136-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+137                android:name="android.app.lib_name"
+137-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+138                android:value="" />
+138-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+139        </activity>
+140        <activity
+140-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:132:9-139:20
+141            android:name="com.y3project.myapplication.OrderConfirm"
+141-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:133:13-41
+142            android:exported="false"
+142-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:134:13-37
+143            android:screenOrientation="portrait" >
+143-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:135:13-49
+144            <meta-data
+144-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+145                android:name="android.app.lib_name"
+145-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+146                android:value="" />
+146-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+147        </activity>
+148        <activity
+148-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:140:9-147:20
+149            android:name="com.y3project.myapplication.PaymentScreen"
+149-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:141:13-42
+150            android:exported="false"
+150-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:142:13-37
+151            android:screenOrientation="portrait" >
+151-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:143:13-49
+152            <meta-data
+152-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+153                android:name="android.app.lib_name"
+153-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+154                android:value="" />
+154-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+155        </activity>
+156        <activity
+156-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:148:9-155:20
+157            android:name="com.y3project.myapplication.OrderMain"
+157-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:149:13-38
+158            android:exported="false"
+158-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:150:13-37
+159            android:screenOrientation="portrait" >
+159-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:151:13-49
+160            <meta-data
+160-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+161                android:name="android.app.lib_name"
+161-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+162                android:value="" />
+162-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+163        </activity>
+164        <activity
+164-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:156:9-163:20
+165            android:name="com.y3project.myapplication.OrderPlacing"
+165-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:157:13-41
+166            android:exported="false"
+166-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:158:13-37
+167            android:screenOrientation="portrait" >
+167-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:159:13-49
+168            <meta-data
+168-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+169                android:name="android.app.lib_name"
+169-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+170                android:value="" />
+170-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+171        </activity>
+172        <activity
+172-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:164:9-171:20
+173            android:name="com.y3project.myapplication.DishesSelection"
+173-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:165:13-44
+174            android:exported="false"
+174-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:166:13-37
+175            android:screenOrientation="portrait" >
+175-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:167:13-49
+176            <meta-data
+176-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+177                android:name="android.app.lib_name"
+177-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+178                android:value="" />
+178-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+179        </activity>
+180        <activity
+180-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:172:9-179:20
+181            android:name="com.y3project.myapplication.ParkingFinder"
+181-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:173:13-42
+182            android:exported="false"
+182-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:174:13-37
+183            android:screenOrientation="portrait" >
+183-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:175:13-49
+184            <meta-data
+184-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+185                android:name="android.app.lib_name"
+185-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+186                android:value="" />
+186-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+187        </activity>
+188        <activity
+188-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:180:9-187:20
+189            android:name="com.y3project.myapplication.CuisineSelection"
+189-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:181:13-45
+190            android:exported="false"
+190-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:182:13-37
+191            android:screenOrientation="portrait" >
+191-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:183:13-49
+192            <meta-data
+192-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+193                android:name="android.app.lib_name"
+193-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+194                android:value="" />
+194-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+195        </activity>
+196        <activity
+196-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:188:9-197:20
+197            android:name="com.y3project.myapplication.MainPortal"
+197-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:189:13-39
+198            android:exported="false"
+198-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:190:13-37
+199            android:label="@string/title_activity_main_portal"
+199-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:191:13-63
+200            android:screenOrientation="portrait"
+200-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:192:13-49
+201            android:theme="@style/Theme.Nottified.NoActionBar" >
+201-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:193:13-63
+202            <meta-data
+202-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+203                android:name="android.app.lib_name"
+203-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+204                android:value="" />
+204-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+205        </activity>
+206        <activity
+206-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:198:9-205:20
+207            android:name="com.y3project.myapplication.StudentPortal"
+207-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:199:13-42
+208            android:exported="false"
+208-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:200:13-37
+209            android:screenOrientation="portrait" >
+209-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:201:13-49
+210            <meta-data
+210-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+211                android:name="android.app.lib_name"
+211-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+212                android:value="" />
+212-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+213        </activity>
+214        <activity
+214-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:206:9-213:20
+215            android:name="com.y3project.myapplication.StaffLogin"
+215-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:207:13-39
+216            android:exported="false"
+216-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:208:13-37
+217            android:screenOrientation="portrait" >
+217-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:209:13-49
+218            <meta-data
+218-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+219                android:name="android.app.lib_name"
+219-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+220                android:value="" />
+220-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+221        </activity>
+222        <activity
+222-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:214:9-221:20
+223            android:name="com.y3project.myapplication.StudentLogin"
+223-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:215:13-41
+224            android:exported="false"
+224-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:216:13-37
+225            android:screenOrientation="portrait" >
+225-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:217:13-49
+226            <meta-data
+226-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+227                android:name="android.app.lib_name"
+227-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+228                android:value="" />
+228-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+229        </activity>
+230        <activity
+230-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:222:9-235:20
+231            android:name="com.y3project.myapplication.MainActivity"
+231-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:223:13-41
+232            android:exported="true"
+232-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:224:13-36
+233            android:screenOrientation="portrait" >
+233-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:225:13-49
+234            <intent-filter>
+234-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:226:13-230:29
+235                <action android:name="android.intent.action.MAIN" />
+235-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:227:17-69
+235-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:227:25-66
+236
+237                <category android:name="android.intent.category.LAUNCHER" />
+237-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:229:17-77
+237-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:229:27-74
+238            </intent-filter>
+239
+240            <meta-data
+240-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:29:13-31:36
+241                android:name="android.app.lib_name"
+241-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:30:17-52
+242                android:value="" />
+242-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:31:17-33
+243        </activity>
+244
+245        <meta-data
+245-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:237:9-239:57
+246            android:name="preloaded_fonts"
+246-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:238:13-43
+247            android:resource="@array/preloaded_fonts" />
+247-->C:\Others\AndroidStudioProjects\Nottified\app\src\main\AndroidManifest.xml:239:13-54
+248
+249        <provider
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+250            android:name="androidx.startup.InitializationProvider"
+250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+251            android:authorities="com.y3project.myapplication.androidx-startup"
+251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+252            android:exported="false" >
+252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+253            <meta-data
+253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+255                android:value="androidx.startup" />
+255-->[androidx.emoji2:emoji2:1.2.0] C:\Users\julia\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\julia\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+257                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+257-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\julia\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+258                android:value="androidx.startup" />
+258-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\julia\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+259        </provider>
+260
+261        <uses-library
+261-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+262            android:name="androidx.window.extensions"
+262-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+263            android:required="false" />
+263-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+264        <uses-library
+264-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+265            android:name="androidx.window.sidecar"
+265-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+266            android:required="false" />
+266-->[androidx.window:window:1.0.0] C:\Users\julia\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+267    </application>
+268
+269</manifest>
