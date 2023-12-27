@@ -1,6 +1,6 @@
 # Nott-ified&nbsp;&nbsp;<img src="https://github.com/julianganjs/nottified-app/assets/127673790/12af595c-f077-490c-a6d8-13040711d247" height="25px">
 
-This repository contains the source code for the Nott-ified app. Nott-ified is an Android app that acts as a central platform to access various IoT solutions which were developed for a larger project involving smart campuses. The name is derived from a hybrid of the word “notified” and the author's university name, “Nottingham”.
+This repository contains the source code for the Nott-ified app. Nott-ified is an Android app that acts as a central platform to access various IoT solutions which were developed for a larger project involving smart campuses. The name is derived from a hybrid of the word “notified” and my university's name “Nottingham”.
 
 The objective of the main project is to develop multiple IoT solutions for a smart campus which will improve the efficiency and operations of campus services while enhancing community safety and security. Some areas that are targeted in the project are managing parking spaces, streamlining security clearance procedures at campus entrances, tracking the operating status of campus facilities and offices, and improving operations in the campus cafeteria.
 
