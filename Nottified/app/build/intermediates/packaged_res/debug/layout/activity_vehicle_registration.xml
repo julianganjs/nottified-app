@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".VehicleRegistration">
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_symbol"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Vehicle Registration"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:fontFamily="@font/open_sans"
+        android:text="."
+        android:textColor="#007ca7"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView83"
+        app:layout_constraintStart_toEndOf="@+id/textView83" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView83">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView24">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/alert_bg">
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/open_sans_extrabold"
+                        android:text="ALERT"
+                        android:textColor="#F44336"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="15dp"
+                        android:text="Each user can only register one vehicle at a time. Please ensure that you fill up all details correctly!"
+                        android:textColor="#F44336"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textView39"
+                        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login7"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/staff_btn_bg"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/regi_field"
+                android:ems="10"
+                android:fontFamily="@font/open_sans_bold"
+                android:hint="e.g. efyjg5"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.01"
+                android:paddingLeft="25dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#717171"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/regi_field"
+                android:ems="10"
+                android:fontFamily="@font/open_sans_bold"
+                android:hint="e.g. WWW8888"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.01"
+                android:paddingLeft="25dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#717171"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/regi_field"
+                android:ems="10"
+                android:fontFamily="@font/open_sans_bold"
+                android:hint="e.g. Toyota Camry"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.01"
+                android:paddingLeft="25dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:textColor="#000000"
+                android:textColorHint="#717171"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="Registration Type"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="Duration"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView14" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="Username / OWA"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView15" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="License Plate Number"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="Vehicle Brand &amp; Model"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="Start Date"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="5dp"
+                android:text="End Date"
+                android:textColor="#717171"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@+id/cardView16"
+                app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView87"
+                app:layout_constraintStart_toStartOf="@+id/textView87"
+                app:layout_constraintTop_toBottomOf="@+id/textView87">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/regi_field">
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView15"
+                android:layout_width="140dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:layout_constraintStart_toStartOf="@+id/textView89"
+                app:layout_constraintTop_toBottomOf="@+id/textView89">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/regi_field"
+                    android:clickable="true"
+                    android:onClick="setDate">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:letterSpacing="0.01"
+                        android:text="yyyy-mm-dd"
+                        android:textColor="#717171"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView16"
+                android:layout_width="140dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView88"
+                app:layout_constraintTop_toBottomOf="@+id/textView90">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/regi_field"
+                    android:clickable="true"
+                    android:onClick="setDate2">
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:letterSpacing="0.01"
+                        android:text="yyyy-mm-dd"
+                        android:textColor="#717171"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
