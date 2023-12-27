@@ -67,12 +67,7 @@ The app was developed using Android Studio, and utilizes XML for each app screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/208907e7-12e3-454b-a16e-ce87f9ac3ff3" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/9a701e65-28a4-4042-9397-244a29692a19" height="300vw">
 ## System Flowchart
-<img src="https://github.com/julianganjs/nottified-app/assets/127673790/82f33bd5-d215-4807-b86f-514d5768c050" width="1000vw">
+<img src="https://github.com/julianganjs/nottified-app/assets/127673790/b5b82999-9820-4a55-b0d2-62e804cb6262" width="1000vw">
 
 ## License 
 This project is licensed under the MIT License.
-
-  
-
-
-
