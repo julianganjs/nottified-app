@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".DishesSelection">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back_symbol"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Menu"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@+id/textView30"
+        android:fontFamily="@font/open_sans"
+        android:text="."
+        android:textColor="#007ca7"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVCourse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView30"
+        android:clipToPadding="false"
+        android:paddingTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+</RelativeLayout>
