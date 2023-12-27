@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="sensorPortrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nottified"
+        tools:targetApi="31">
+        <service
+            android:name=".FacilityMainService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".FacilityMain"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ServiceStatus"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".VehicleEntryLogs"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EntrySession"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".VehicleRegistration"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <service
+            android:name=".ParkingLocatorService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".MonitorFacilities"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CheckService"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <service
+            android:name=".CuisineStaffService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".StaffOrderList"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CuisineStaff"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <service
+            android:name=".StartOnBootService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ParkingLocator"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OrderViewer"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OrderConfirm"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PaymentScreen"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OrderMain"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OrderPlacing"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DishesSelection"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ParkingFinder"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CuisineSelection"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainPortal"
+            android:exported="false"
+            android:label="@string/title_activity_main_portal"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Nottified.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StudentPortal"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StaffLogin"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StudentLogin"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
