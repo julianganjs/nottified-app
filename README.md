@@ -32,15 +32,15 @@ The app was developed using Android Studio, and utilizes XML for each app screen
 - Register vehicle license plates and view all entry records.
 - Check for available parking spots around campus with GPS navigation.
 ## User Interfaces
-- ### Login Screen
+- #### Login Screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/b973a28a-f838-4542-8bc8-45f805d1c6d4" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/1eadcbce-a923-44d5-909d-54cf63f9bd1f" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/db4e672e-724f-4531-9a11-394eb32d2f0d" height="300vw">
-- ### Student Portal
+- #### Student Portal
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/776daaf6-da5f-49b5-a9ae-8cdcf46ff63c" height="300vw">
-- ### Staff Portal
+- #### Staff Portal
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/7613548c-c009-4ba3-ae4d-33ea5f41401c" height="300vw">
-- ### Online Food Ordering System
+- #### Online Food Ordering System
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/d746d0d5-7f0d-43e2-87ff-33df9427b38d" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/014a873e-b0d5-4271-afbc-39b423a9c4fb" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/4a6200d1-00d7-471d-8c1d-b947e0666153" height="300vw">
@@ -50,20 +50,20 @@ The app was developed using Android Studio, and utilizes XML for each app screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/cae45bd7-117f-439e-8d80-bd3f6326117c" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/08b41f66-861a-4545-8246-e8815d4ed014" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/edbc44ca-e48a-4fa6-a558-6d5a6d6c745e" height="300vw">
-- ### Crowd Size Checker
+- #### Crowd Size Checker
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/b2fa0767-e1a4-4fac-92e1-32a186f478c1" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/d27eba47-bd4e-455e-a44f-e7e905932c34" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/725e556a-a293-45b6-aef7-41959ba7ef83" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/75153d5c-d37c-453e-98c0-1e0ff3fa19aa" height="300vw">
-- ### Room Status Checker
+- #### Room Status Checker
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/ee33cb70-c75b-4601-8a12-1a89d4e6d7cd" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/3fbd4c5b-3825-4aeb-a052-9bea847084ec" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/37304212-0ac6-46b0-9c90-919a0e64cbad" height="300vw">
-- ### Vehicle Registration
+- #### Vehicle Registration
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/f147328f-dde0-4a80-b560-1b9ba3bfcb18" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/eddd0eec-4943-4cc6-b946-a97efcea7444" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/55cfa17a-db76-41e9-95f0-695fd8b380dd" height="300vw">
-- ### Parking Space Occupancy Checker
+- #### Parking Space Occupancy Checker
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/208907e7-12e3-454b-a16e-ce87f9ac3ff3" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/9a701e65-28a4-4042-9397-244a29692a19" height="300vw">
 ## System Flowchart
