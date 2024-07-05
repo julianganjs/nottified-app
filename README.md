@@ -63,7 +63,7 @@ The app was developed using Android Studio, and utilizes XML for each app screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/f147328f-dde0-4a80-b560-1b9ba3bfcb18" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/eddd0eec-4943-4cc6-b946-a97efcea7444" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/55cfa17a-db76-41e9-95f0-695fd8b380dd" height="300vw">
-- #### Parking Space Occupancy Checker
+- #### Parking Space Occupancy Checker and Navigator
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/208907e7-12e3-454b-a16e-ce87f9ac3ff3" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/9a701e65-28a4-4042-9397-244a29692a19" height="300vw">
 ## System Flowchart
