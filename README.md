@@ -35,11 +35,14 @@ The app was developed using Android Studio, and utilizes XML for each app screen
 - #### Login Screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/b973a28a-f838-4542-8bc8-45f805d1c6d4" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/1eadcbce-a923-44d5-909d-54cf63f9bd1f" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/db4e672e-724f-4531-9a11-394eb32d2f0d" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/db4e672e-724f-4531-9a11-394eb32d2f0d" height="300vw"><br />
+  Login screen where users are able to log into the student or staff portals.
 - #### Student Portal
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/776daaf6-da5f-49b5-a9ae-8cdcf46ff63c" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/776daaf6-da5f-49b5-a9ae-8cdcf46ff63c" height="300vw"><br />
+  A simplified menu to access all features within the app.
 - #### Staff Portal
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/7613548c-c009-4ba3-ae4d-33ea5f41401c" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/7613548c-c009-4ba3-ae4d-33ea5f41401c" height="300vw"><br />
+  A horizontal scrolling card menu where the staff is able to access the various features in the app.
 - #### Online Food Ordering System
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/d746d0d5-7f0d-43e2-87ff-33df9427b38d" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/014a873e-b0d5-4271-afbc-39b423a9c4fb" height="300vw">
@@ -49,23 +52,28 @@ The app was developed using Android Studio, and utilizes XML for each app screen
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/8c078ae2-31d1-4d31-ba3d-d4c24726428f" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/cae45bd7-117f-439e-8d80-bd3f6326117c" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/08b41f66-861a-4545-8246-e8815d4ed014" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/edbc44ca-e48a-4fa6-a558-6d5a6d6c745e" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/edbc44ca-e48a-4fa6-a558-6d5a6d6c745e" height="300vw"><br />
+  An online food ordering system where users are able to select from a variety of cuisines and dishes. The app accepts online QR payment, and the user's order status can be tracked through the app. A notification will be sent out when the food is ready for collection.
 - #### Crowd Size Checker
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/b2fa0767-e1a4-4fac-92e1-32a186f478c1" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/d27eba47-bd4e-455e-a44f-e7e905932c34" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/725e556a-a293-45b6-aef7-41959ba7ef83" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/75153d5c-d37c-453e-98c0-1e0ff3fa19aa" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/75153d5c-d37c-453e-98c0-1e0ff3fa19aa" height="300vw"><br />
+  Integrated with a human detection system and a live video feed. A camera is placed at each facility and used to determine the number of people waiting in line. This allows the user to avoid long waiting times and only go at convenient timings.
 - #### Room Status Checker
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/ee33cb70-c75b-4601-8a12-1a89d4e6d7cd" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/3fbd4c5b-3825-4aeb-a052-9bea847084ec" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/37304212-0ac6-46b0-9c90-919a0e64cbad" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/37304212-0ac6-46b0-9c90-919a0e64cbad" height="300vw"><br />
+  Integrated with a motion detection system. Users are able to identify which study rooms are occupied on campus and find one which is available, using the app.
 - #### Vehicle Registration
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/f147328f-dde0-4a80-b560-1b9ba3bfcb18" height="300vw">
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/eddd0eec-4943-4cc6-b946-a97efcea7444" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/55cfa17a-db76-41e9-95f0-695fd8b380dd" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/55cfa17a-db76-41e9-95f0-695fd8b380dd" height="300vw"><br />
+  Users are able to register the number plates of their respective vehicles, and they will be provided with quick and easy entry into campus at the guard house using a license plate recognition system.
 - #### Parking Space Occupancy Checker and Navigator
   <img src="https://github.com/julianganjs/nottified-app/assets/127673790/208907e7-12e3-454b-a16e-ce87f9ac3ff3" height="300vw">
-  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/9a701e65-28a4-4042-9397-244a29692a19" height="300vw">
+  <img src="https://github.com/julianganjs/nottified-app/assets/127673790/9a701e65-28a4-4042-9397-244a29692a19" height="300vw"><br />
+  Users are able to determine available parking spots on campus, and use their phone's default navigation app to find them.
 ## System Flowchart
 <img src="https://github.com/julianganjs/nottified-app/assets/127673790/b5b82999-9820-4a55-b0d2-62e804cb6262" width="900vw">
 
